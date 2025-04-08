@@ -1,0 +1,88 @@
+#HTML
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Nutrivida - Alimentando com Propósito</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Nutrivida</h1>
+        <p>Resgatando alimentos. Restaurando dignidade.</p>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre o Projeto</h2>
+        <p>A Nutrivida transforma alimentos que seriam desperdiçados em refeições saudáveis para pessoas em situação de vulnerabilidade.</p>
+    </section>
+
+    <section id="diferenciais">
+        <h2>Diferenciais</h2>
+        <ul>
+            <li>Acesso gratuito</li>
+            <li>Suporte 24h</li>
+            <li>Maior rede de fornecedores</li>
+            <li>Foco em saúde e impacto social</li>
+        </ul>
+    </section>
+
+    <section id="publico">
+        <h2>Público-Alvo</h2>
+        <p>Pessoas em situação de vulnerabilidade social, instituições de caridade, ONGs e comunidades carentes.</p>
+    </section>
+
+    <section id="marca">
+        <h2>A Marca</h2>
+        <p>O nome Nutrivida une Nutrição e Vida, com um logotipo que representa saúde, equilíbrio e sustentabilidade.</p>
+    </section>
+
+    <section id="marketing">
+        <h2>Estratégias de Marketing</h2>
+        <p>Utilizamos redes sociais, parcerias com influenciadores e conteúdo educativo para divulgar nossa missão e impactar mais vidas.</p>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Email: contato@nutrivida.org</p>
+        <p>Instagram: @nutrivida_brasil</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Nutrivida. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+
+
+#CSS
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4fdf4;
+    color: #333;
+}
+
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+section {
+    padding: 2rem;
+    border-bottom: 1px solid #ccc;
+}
+
+h2 {
+    color: #2E7D32;
+}
+
+footer {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
